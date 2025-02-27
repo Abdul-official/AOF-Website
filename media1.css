@@ -91,5 +91,54 @@
         height: 700px;
         overflow: auto;
     }
+
+
+    .book-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .book-box-1{
+        width: 100%;
+        height: 100%;
+    }
+    .book-box-2{
+        width: 100%;
+        height: 100%;
+    }
+    .book-box-2 img{
+        min-height: 100%;
+        width: 100%;
+    }
+    .book-container .book-box{
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .book-container .book-box-1{
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .book-box-1 h2{
+        font-size: 2rem;
+    }
     
+    .book-box-1 p{
+        font-size: .9rem;
+        text-align: justify;
+    }
+    
+    .book-box-1 span{
+        font-size: 3rem;
+        margin-top: 10px;
+    }
+    
+    .book-box-1 button{
+        width: 90px;
+        height: 30px;
+        font-size: 0.7rem;
+        margin-bottom: 10px;
+    }
+    
+    .blog-details hr {
+        margin-top:50px;
+      }
 }
