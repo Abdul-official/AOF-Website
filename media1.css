@@ -78,4 +78,12 @@
         letter-spacing: 2px;
         padding: 0;
     }
+
+
+    .about-box{
+        height: 100%;
+    }
+    .about-box img{
+        height: 100%;
+    }
 }

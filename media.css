@@ -53,7 +53,7 @@
     }
 
     .home-section h1{
-        font-size: 40px;
+        font-size: 45px;
         letter-spacing: 5px;
     }
     
@@ -70,7 +70,14 @@
         letter-spacing: 2px;
         padding: 0;
     }
-
+     /* -----------about------------ */
+     .about-box-1 h6{
+        margin-top: 20px;
+    }
+    .about-box-2{
+        height: 400px;
+    }
+      
     /* ----------book-------- */
     .book-container{
         grid-template-columns: 1fr;
