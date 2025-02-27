@@ -420,7 +420,9 @@ nav ul li a:hover{
     padding: 0 0 15px 0;
     margin: 30px auto;   
 }
-
+.blog-container #block{
+     padding-top: 0;
+}
 .blog-slider{
     height: 70vh;
     overflow: auto;
@@ -440,7 +442,7 @@ nav ul li a:hover{
 .blog-box{
    display: grid;
    grid-template-columns: repeat(auto-fit , minmax(300px,1fr));
-   padding: 15px;
+   padding: 15px 15px 0 15px;
 }
 
 .blog-box-items{
