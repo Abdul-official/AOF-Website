@@ -339,7 +339,8 @@ nav ul li a:hover{
 }
 .book-box-2{
     width: 100%;
-    height: 350px;
+    min-height: 350px;
+    height: 100%;
     padding: 15px;
 }
 .book-box-2 img{
