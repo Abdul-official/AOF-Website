@@ -1,0 +1,174 @@
+@media only screen and (max-width : 600px){
+    @font-face {
+        font-family: Trans-light;
+        src: url(./fonts/Transcend\ Light.otf);
+    }
+    *{
+        font-family: "Trans-light";
+    }
+    .home-container{
+        width: 100%;
+        height: 600px;
+    }
+    #logo{
+        line-height: 60px;
+        padding: 0px 20px;
+        font-size: 1.3rem;
+    }
+    
+    nav ul{
+        position: fixed;
+        top: 60px;
+        left: -100%;
+        width: 100%;
+        height: 430px;
+        text-align: center;
+        background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9),rgba(0,0,0,0.7));
+        transition: all .5s;
+        z-index: 999;
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    nav ul li a{
+        color: #fff;
+        text-decoration: none;
+        font-size: .8rem;
+        line-height: 10px;
+    }
+
+    #icon{
+        display: block;
+        color: #fff;
+        font-size: 1.5rem;
+    }
+    #icon:hover{
+        color: #ffda43;
+        transition: all .5s;
+    }
+    #check:checked~ul{
+        left: 0;
+    }
+
+    .home-section h1{
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
+    
+    .home-section h6{
+        font-size: 1rem;
+        letter-spacing: 3px;
+        font-weight: 500;
+    }
+    .home-section button{
+        width: 120px;
+        height: 40px;
+        margin: 10px 0px;
+        font-size: 0.65rem;
+        letter-spacing: 2px;
+        padding: 0;
+    }
+
+    /* ----------book-------- */
+    .book-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .book-box-1{
+        padding: 10px;
+    }
+    .book-box-2{
+        width: 100%;
+    }
+    .book-box-2 img{
+        min-height: 100%;
+        width: 100%;
+        padding: 0;
+    }
+    .book-container .book-box{
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .book-container .book-box-1{
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .book-box-1 h2{
+        font-size: 2rem;
+    }
+    
+    .book-box-1 p{
+        font-size: 1rem;
+        text-align: justify;
+    }
+    
+    .book-box-1 span{
+        font-size: 3rem;
+        margin-top: 10px;
+    }
+    
+    .book-box-1 button{
+        width: 90px;
+        height: 30px;
+        font-size: 0.7rem;
+        margin-bottom: 10px;
+    }
+     /* ------------gallery------- */
+     .gallery-container{
+        min-height: 210vh;
+        height:0px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .gallery-box:nth-child(1){
+         grid-column: 1 / span 4;
+    }
+    .gallery-box:nth-child(2){
+        display: none;
+        /* grid-row-start: 9;
+        grid-column:  1/ span 4; */
+   }
+   .gallery-box:nth-child(3){
+       grid-row-start: 2;
+       grid-column: 1 / span 4;
+    }
+    .gallery-box:nth-child(4){
+        display: none;
+        /* grid-row-start: 7;
+        grid-row-end: 8;
+       grid-column: 1 / span 4; */
+     }
+    .gallery-box:nth-child(5){
+        grid-row-start: 3;
+       grid-column: 1/ span 4;
+     }
+     .gallery-box:nth-child(6){
+        grid-row-start: 4;
+       grid-column: 1 / span 4;
+     }
+     .gallery-box:nth-child(7){
+        grid-row-start: 5;
+        grid-row-end: 6;
+       grid-column: 1 / span 4;
+     }
+     .gallery-box:nth-child(8){
+        grid-row-start: 6;
+        grid-row-end: 7;
+       grid-column: 1 / span 4;
+     }
+     .gallery-box:nth-child(9){
+        display: none;
+        /* grid-row-start: 8;
+        grid-row-end: 9;
+       grid-column: 1 / span 4; */
+     }
+     .gallery-box{
+        height: 200px;
+    }
+/* ----------------blog--------------------- */
+    .blog-details hr {
+        margin-top:60px;
+      }
+}
