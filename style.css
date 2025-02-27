@@ -356,8 +356,6 @@ nav ul li a:hover{
 }
 .gallery-container{
     width: 90%;
-    /* min-height: 110vh; */
-    /* height: 100vh; */
     margin: 30px auto;
     border-radius: 10px;
     box-shadow: 5px 5px 10px #555,5px 5px 10px #555;
@@ -365,7 +363,7 @@ nav ul li a:hover{
     grid-gap: .2rem;
     padding: 15px;
     grid-template-columns: repeat(4,1fr);
-}
+} 
 .gallery-box{
     min-height: 200px;
     height: 200px;
