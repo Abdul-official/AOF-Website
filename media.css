@@ -77,7 +77,6 @@
         grid-template-rows: 1fr;
     }
     .book-box-1{
-        padding: 10px;
         width: 100%;
         height: 100%;
     }
@@ -88,7 +87,6 @@
     .book-box-2 img{
         min-height: 100%;
         width: 100%;
-        padding: 0;
     }
     .book-container .book-box{
         grid-row-start: 1;
@@ -120,7 +118,6 @@
     }
      /* ------------gallery------- */
      .gallery-container{
-        min-height: 250vh;
         display: grid;
         grid-template-columns: repeat(1 , 1fr);
         grid-template-rows: repeat(6,1fr);
