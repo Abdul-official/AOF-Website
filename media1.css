@@ -1,4 +1,4 @@
-/* @media only screen and (min-width : 601px) and (max-width : 1074px){
+ @media only screen and (min-width : 601px) and (max-width : 950px){
     @font-face {
         font-family: Trans-light;
         src: url(./fonts/Transcend\ Light.otf);
@@ -35,6 +35,10 @@
         padding-top: 5px;
         grid-area: logos;
         text-align: center;
+    }
+    .portfolio-box{
+        display: grid;
+        grid-template-columns:1fr;
     }
     
     nav h2{
@@ -149,6 +153,61 @@
     }
     .about-conatiner{
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: 1fr;
     }  
-} */
+
+
+
+    .contact-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       }
+    
+    
+    .input-container{
+        width: 100%;
+    }
+    .contact-box{
+        height: 400px;
+        max-height: 100%
+    }
+    .contact-box-2{
+        height: 530px;
+    }
+    
+    .contact-box h2{
+        font-size: 1.6rem;
+    }
+    
+    .contact-box h6{
+        font-size: .7rem;
+    }
+    
+    form label{
+        font-size: .9rem;
+    }
+    
+    form input{
+        height: 35px;
+    }
+    form textarea{
+        height: 90px;
+    }
+    form button{
+        width: 110px;
+        margin-top: 8px;
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+    
+    .contact-icons i{
+        font-size: 1.8rem;
+    }
+    .footer{
+        width: 100%;
+        margin-top:10px;
+    }
+    .footer p{
+        font-size: .6rem;
+    }
+} 
