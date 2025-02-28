@@ -8,5 +8,9 @@
         height: 700px;
         overflow: auto;
     }
+
+    .footer p{
+        text-align: center;
+    }
     
 }
