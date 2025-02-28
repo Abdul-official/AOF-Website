@@ -143,7 +143,7 @@ nav ul li a:hover{
     width: 90%;
     margin: 30px auto;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px #555,5px 5px 10px #555;
+    box-shadow: 2px 2px 5px #555,2px 2px 4px #555;
     padding: 15px;
 }
 
@@ -241,7 +241,7 @@ nav ul li a:hover{
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     width: 90%;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px #555,5px 5px 10px #555;
+    box-shadow: 2px 2px 5px #555,2px 2px 4px #555;
     margin: 30px auto;
 }
 .about-box{
@@ -294,7 +294,7 @@ nav ul li a:hover{
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     margin: 30px auto;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px #555,5px 5px 10px #555;
+    box-shadow: 2px 2px 5px #555,2px 2px 4px #555;
 }
 
 .book-box-1{
@@ -360,7 +360,7 @@ nav ul li a:hover{
     width: 90%;
     margin: 30px auto;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px #555,5px 5px 10px #555;
+    box-shadow: 2px 2px 5px #555,2px 2px 4px #555;
     display: grid;
     grid-gap: .2rem;
     padding: 15px;
@@ -415,7 +415,7 @@ nav ul li a:hover{
 .blog-container{
     display: grid;
     grid-template-columns: 1fr;
-    box-shadow: 5px 5px 10px #555,5px 5px 10px #555;
+    box-shadow: 2px 2px 5px #555,2px 2px 4px #555;
     border-radius: 10px;
     width: 90%;
     padding: 0 0 15px 0;
@@ -539,7 +539,7 @@ nav ul li a:hover{
     margin: 30px auto;
     display: grid;
     grid-template-columns: repeat(auto-fit , minmax(300px , 1fr));
-    box-shadow: 5px 5px 10px #555,5px 5px 10px #555;
+    box-shadow: 2px 2px 5px #555,2px 2px 4px #555;
     border-radius: 10px; 
 }
 .contact-box{
@@ -610,8 +610,9 @@ form button:hover{
     align-items: center;
     width: 90%;
     margin: auto;
-    box-shadow: 5px 5px 10px #555,5px 5px 10px #555;
-    border-radius: 10px;
+    box-shadow: 1px 1px 2px #555,-1px -1px 2px #555;  
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     padding: 20px 0;
 }
 
